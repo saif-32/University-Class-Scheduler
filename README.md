@@ -38,7 +38,7 @@ The program will then scrape the course information for the provided course numb
 The program is structured as follows:
 
 - It uses tkinter to create a graphical user interface (GUI) for input and output.
-- It uses Selenium to automate web scraping of course information from the UTSA course registration website.
+- It uses Selenium to automate web scraping of course information from the course registration website.
 - The `scrape_class_times` function extracts class information for the specified course numbers.
 - The `generate_schedule_combinations` function generates all possible schedule combinations without time conflicts.
 - The `has_conflict` function checks if there is a time conflict between two class sessions.
